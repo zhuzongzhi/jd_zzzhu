@@ -138,9 +138,9 @@ function help() {
 function help2() {
   return new Promise(async (resolve) => {
     let code = [
-      "/eNHdfn6fP+TFwVda3ipjWwvTFqeKBZaRG38adWABKk=",
-      "Sev6JWjut6GyaEHJIWpSQQ==",
-      "Cg7WMrLsk/PPSHaOd9q2ULzDByNly0QecJ4K7QiZhLk="
+      "%2FeNHdfn6fP%2BTFwVda3ipjWwvTFqeKBZaRG38adWABKk%3D",
+      "Sev6JWjut6GyaEHJIWpSQQ%3D%3D",
+      "Cg7WMrLsk%2FPPSHaOd9q2ULzDByNly0QecJ4K7QiZhLk%3D"
     ][Math.floor((Math.random() * 3))]
     let options = {
       url: `https://api.m.jd.com`,
